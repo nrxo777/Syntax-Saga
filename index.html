@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Syntax Saga</title>
+</head>
+<body>
+    <div class="container row">
+        <h3>Sign up for Syntax Saga..</h3>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="e9eb92c1-03b2-4466-a2a4-6b142e7d4fa6">
+            <input type="hidden" name="redirect" value="https://syntaxsagaregistration.vercel.app/">
+
+
+            <div class="about">
+                <h5>About You</h5>
+                <div class="row">
+                    <label for="name" class="four columns">Your Name:</label>
+                    <input type="text" name="first-name" placeholder="First Name" id="text" class="u-full-width four columns" required>
+                    <input type="text" name="last-name" placeholder="Last Name" id="text" class="u-full-width four columns">
+                </div>
+                <div class="row">
+                    <label for="number" class="four columns">Phone Number:</label>
+                    <input type="number" name="phone-number" placeholder="Enter Your Phone Number (What's App)" id="phone-number" class="u-full-width eight columns" required>
+                </div>
+                <div class="row">
+                    <label for="email" class="four columns">E-Mail:</label>
+                    <input type="email" name="email" placeholder="Enter Your E-Mail ID" id="email" class="u-full-width eight columns" required>
+                </div>
+                <div class="row">
+                    <label for="address" class="four columns">Address:</label>
+                    <input type="text" name="address" placeholder="Enter Your Present Home Location" id="address" class="u-full-width eight columns">
+                </div>
+                <div class="row">
+                    <label for="institute" class="four columns">Institute Name:</label>
+                    <input type="text" name="institute" placeholder="Enter Your Institute Name" id="institute" class="u-full-width eight columns" required>
+                </div>
+            </div>
+        
+            <hr>
+        
+            <div class="resume">
+                <h5>Your Skill Sets</h5>
+                <div class="row">
+                    
+                        <label for="expertise">Your Field</label>
+                        <select name="field" id="field" class="u-full-width">
+                            <option value="my-expertise">My Expertise..</option>
+                            <option value="app-dev">App Development</option>
+                            <option value="front-end-dev">Front-End Development</option>
+                            <option value="back-end-dev">Back-End Development</option>
+                            <option value="full-dev">Full-Stack Development</option>
+                            <option value="gfx">Graphic Design</option>
+                            <option value="vfx">Video Editing</option>
+                            <option value="ssm">Social Media Marketing</option>
+                            <option value="seo">Search Engine Optimizatin</option>
+                        </select>
+                        <br>
+                        <label for="institute" class="one columns">OR</label>
+                        <input type="text" name="other-field" placeholder="any other field!!!" id="field" class="u-full-width ten columns">
+                    
+                </div>
+                <div class="row">
+                    <label for="skills" class="four columns">Your Skills:</label>
+                    <input type="text" name="skill-1" placeholder="Write down your skills" id="skills" class="u-full-width " required>
+                    <input type="text" name="skill-2" placeholder="Write down your skills" id="skills" class="u-full-width ">
+                    <input type="text" name="skill-3" placeholder="Write down your skills" id="skills" class="u-full-width ">
+                    <input type="text" name="skill-4" placeholder="Write down your skills" id="skills" class="u-full-width ">
+                    <input type="text" name="skill-5" placeholder="Write down your skills" id="skills" class="u-full-width ">
+                </div>
+                <div class="row">
+                    <label for="link">Portfolio OR Github</label>
+                    <input type="text" name="portfolio" placeholder="Your Portfolio/Projects Link" Link id="project" class="u-full-width ">
+                </div>
+                <hr>
+                <div>
+                    <input type="submit" value="Send" id="send" class="u-full-width">
+                </div>
+
+            </div>
+        </form>
+
+
+
+    </div>
+
+</body>
+</html>

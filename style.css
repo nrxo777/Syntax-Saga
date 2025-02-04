@@ -1,0 +1,28 @@
+body {
+    background-color: #212121;
+    color: antiquewhite;
+}
+
+#text, #institute, #address, #email, #phone-number, #field, #skills, #project, #send  {
+    background-color: antiquewhite;
+    border-color: brown;
+    color: brown;
+    font-weight: 600;
+}
+
+#send:hover {
+    background-color: brown;
+    color: antiquewhite;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+ul li {
+    text-decoration: none;
+    
+}
